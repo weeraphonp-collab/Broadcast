@@ -1,0 +1,652 @@
+[
+    {
+        "id": "c7e97017-5970-4815-bea0-478c87231afd",
+        "date": "2026-02-19",
+        "includes": [
+            "buyfirstday_bytime/buyfirstday_bytime_1200_1659_2026_03_01_(1).csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "99d18d91-277b-4bb3-bb6e-c1162b1204af",
+        "date": "2026-02-19",
+        "includes": [
+            "special/special_1_2026_03_01.csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "9592f5e2-381b-4809-bf3f-4415cf4df54c",
+        "date": "2026-02-19",
+        "includes": [
+            "special/special_3_2026_03_01.csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "2cb99cad-ca02-45b4-ae7d-28eae7c9de7e",
+        "date": "2026-02-19",
+        "includes": [
+            "buyfirstday_bytime/buyfirstday_bytime_1700_1959_2026_03_01_(1).csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "564d7806-067f-49f5-87fd-ec5c27652793",
+        "date": "2026-02-19",
+        "includes": [
+            "NewUser.csv",
+            "special/special_2_2026_03_01.csv",
+            "buyfirstday_bytime/buyfirstday_bytime_2000_2359_2026_03_01_(1).csv"
+        ],
+        "excludes": [
+            "special/special_1_2026_03_01.csv",
+            "buyfirstday_bytime/buyfirstday_bytime_1700_1959_2026_03_01_(1).csv",
+            "special/special_3_2026_03_01.csv",
+            "buyfirstday_bytime/buyfirstday_bytime_1200_1659_2026_03_01_(1).csv"
+        ],
+        "weight": 1
+    },
+    {
+        "id": "f5b90517-ab49-42bb-9b88-7c319fe5ab7d",
+        "date": "2026-02-20",
+        "includes": [
+            "like_count/like_count_9_2026_03_01_(1).csv",
+            "like_count/like_count_10_2026_03_01_(1).csv",
+            "like_count/like_count_8_2026_03_01_(1).csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "32ca732e-fccb-4815-a97b-b927e8a37ff7",
+        "date": "2026-02-20",
+        "includes": [
+            "like_count/like_count_7_2026_03_01_(1).csv",
+            "like_count/like_count_5_2026_03_01_(1).csv",
+            "like_count/like_count_4_2026_03_01_(1).csv",
+            "like_count/like_count_6_2026_03_01_(1).csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "c7ed5894-7255-418c-ba35-e86a9c72945a",
+        "date": "2026-02-20",
+        "includes": [
+            "like_count/like_count_2_2026_03_01_(2).csv",
+            "like_count/like_count_2_2026_03_01_(1).csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "2db1221f-0fbc-4b45-a44e-4ece5b06ff15",
+        "date": "2026-02-20",
+        "includes": [
+            "like_count/like_count_1_2026_03_01_(1).csv",
+            "like_count/like_count_1_2026_03_01_(2).csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "3fe6ca06-cf7a-49d5-a782-0af6f6121a39",
+        "date": "2026-02-20",
+        "includes": [
+            "like_count/like_count_7_2026_03_01_(1).csv",
+            "like_count/like_count_6_2026_03_01_(1).csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "ddbd5142-e712-47dd-afb1-87e820058c04",
+        "date": "2026-02-20",
+        "includes": [
+            "like_count/like_count_22_2026_03_01_(1).csv",
+            "like_count/like_count_12_2026_03_01_(1).csv",
+            "like_count/like_count_9_2026_03_01_(1).csv",
+            "like_count/like_count_24_2026_03_01_(1).csv",
+            "like_count/like_count_19_2026_03_01_(1).csv",
+            "like_count/like_count_8_2026_03_01_(1).csv",
+            "like_count/like_count_21_2026_03_01_(1).csv",
+            "like_count/like_count_10_2026_03_01_(1).csv",
+            "like_count/like_count_15_2026_03_01_(1).csv",
+            "like_count/like_count_23_2026_03_01_(1).csv",
+            "like_count/like_count_13_2026_03_01_(1).csv",
+            "like_count/like_count_16_2026_03_01_(1).csv",
+            "like_count/like_count_25_2026_03_01_(1).csv",
+            "like_count/like_count_20_2026_03_01_(1).csv",
+            "like_count/like_count_11_2026_03_01_(1).csv",
+            "like_count/like_count_18_2026_03_01_(1).csv",
+            "like_count/like_count_17_2026_03_01_(1).csv",
+            "like_count/like_count_14_2026_03_01_(1).csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "ab3d5b7c-a26c-4fa7-ac07-27758e12cc10",
+        "date": "2026-02-21",
+        "includes": [
+            "item_per_round/item_per_round_morethan100_2026_03_01_(1).csv",
+            "item_per_round/item_per_round_51_100_2026_03_01_(1).csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "f6777ab5-5d0d-48f6-855c-10888e357c41",
+        "date": "2026-02-21",
+        "includes": [
+            "item_per_round/item_per_round_10_2026_03_01_(1).csv",
+            "item_per_round/item_per_round_9_2026_03_01_(1).csv",
+            "item_per_round/item_per_round_8_2026_03_01_(1).csv",
+            "item_per_round/item_per_round_6_2026_03_01_(1).csv",
+            "item_per_round/item_per_round_7_2026_03_01_(1).csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "3126b5be-ba8b-4c27-9dcf-189ca44bebc5",
+        "date": "2026-02-21",
+        "includes": [
+            "item_per_round/item_per_round_5_2026_03_01_(1).csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "2e6069d1-9d30-44a5-9ab7-ac1e56f8062e",
+        "date": "2026-02-21",
+        "includes": [
+            "item_per_round/item_per_round_5_2026_03_01_(2).csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "913940c6-5375-42d1-aa8d-114cfd04aeab",
+        "date": "2026-02-21",
+        "includes": [
+            "item_per_round/item_per_round_31_50_2026_03_01_(1).csv",
+            "item_per_round/item_per_round_21_30_2026_03_01_(1).csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "d23f511b-0402-439b-8b3f-5d73503b7381",
+        "date": "2026-02-21",
+        "includes": [
+            "item_per_round/item_per_round_3_2026_03_01_(1).csv",
+            "item_per_round/item_per_round_4_2026_03_01_(1).csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "c235fd56-a3b0-410e-901e-b6f719d42622",
+        "date": "2026-02-21",
+        "includes": [
+            "NewUser.csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "b967519c-a4e5-445d-afab-436ea41bca16",
+        "date": "2026-02-22",
+        "includes": [
+            "special/special_1_2026_03_01.csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "dbfc046c-0a82-4b24-8714-67c28ce07f23",
+        "date": "2026-02-22",
+        "includes": [
+            "UID_Boardcast_RFM_for_1time_perday/UID_3.Potential Loyalist_1.csv",
+            "UID_Boardcast_RFM_for_1time_perday/UID_3.Potential Loyalist_3.csv",
+            "UID_Boardcast_RFM_for_1time_perday/UID_3.Potential Loyalist_2.csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "5e9bc8ab-52b6-412a-a2d2-74b3e3542e7d",
+        "date": "2026-02-22",
+        "includes": [
+            "special/special_2_2026_03_01.csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "5d59c5fe-1d52-43c4-af01-bab3f993ab59",
+        "date": "2026-02-22",
+        "includes": [
+            "special/special_4_2026_03_01.csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "8a28eaf5-3935-4439-a6b2-a09df9b2d13a",
+        "date": "2026-02-22",
+        "includes": [
+            "NewUser.csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "4f47e378-322b-48b7-9084-6052f7c9d1f7",
+        "date": "2026-02-22",
+        "includes": [
+            "UID_Boardcast_RFM_for_1time_perday/UID_9.About To Sleep.csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "da4384ea-9197-4f16-b391-ebf64580ae4d",
+        "date": "2026-02-22",
+        "includes": [
+            "UID_Boardcast_RFM_for_1time_perday/UID_2.Loyal.csv",
+            "special/special_3_2026_03_01.csv",
+            "UID_Boardcast_RFM_for_1time_perday/UID_1.Champion.csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "1bbbebb5-349c-4a62-934a-2a6bc913d30a",
+        "date": "2026-02-22",
+        "includes": [
+            "UID_Boardcast_RFM_for_1time_perday/UID_6.Customers Low Frequency_1.csv",
+            "UID_Boardcast_RFM_for_1time_perday/UID_7.Promising.csv",
+            "UID_Boardcast_RFM_for_1time_perday/UID_6.Customers Low Frequency_2.csv",
+            "UID_Boardcast_RFM_for_1time_perday/UID_6.Customers Low Frequency_3.csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "4fffe1f2-6749-4f0e-97a9-4b13f9e27f1d",
+        "date": "2026-02-22",
+        "includes": [
+            "UID_Boardcast_RFM_for_1time_perday/UID_5.1st-purchasing.csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "f42aba82-2973-4672-a5e5-7a4230fe4a05",
+        "date": "2026-03-05",
+        "includes": [
+            "Buyfirst_bytime/Buyfirst_bytime_1200_1659.txt",
+            "users_เชียงราย.txt",
+            "Day/UID_ชอบซื้อวันแรก.txt"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "d5524d4f-e131-4bc6-ba8d-cce6e3ab9ef1",
+        "date": "2026-03-05",
+        "includes": [
+            "UID_like_count_round_16032026/UID_like_count_11_16032026.txt",
+            "UID_like_count_round_16032026/UID_like_count_12_16032026.txt"
+        ],
+        "excludes": [
+            "Buyfirst_bytime/Buyfirst_bytime_1200_1659.txt",
+            "users_เชียงราย.txt",
+            "Day/UID_ชอบซื้อวันแรก.txt"
+        ],
+        "weight": 1
+    },
+    {
+        "id": "b8a33cc1-4a9e-4242-b9c6-8c36839501e2",
+        "date": "2026-03-05",
+        "includes": [
+            "UID_like_count_round_16032026/UID_like_count_13_16032026.txt",
+            "special/special_4_2026_03_16.csv"
+        ],
+        "excludes": [
+            "Buyfirst_bytime/Buyfirst_bytime_1200_1659.txt",
+            "UID_like_count_round_16032026/UID_like_count_12_16032026.txt",
+            "Day/UID_ชอบซื้อวันแรก.txt",
+            "users_เชียงราย.txt",
+            "UID_like_count_round_16032026/UID_like_count_11_16032026.txt"
+        ],
+        "weight": 1
+    },
+    {
+        "id": "54bf896a-57df-492a-bdd3-569aee779ac4",
+        "date": "2026-03-05",
+        "includes": [
+            "Buyfirst_bytime/Buyfirst_bytime_1700_1959.txt"
+        ],
+        "excludes": [
+            "Buyfirst_bytime/Buyfirst_bytime_1200_1659.txt",
+            "special/special_4_2026_03_16.csv",
+            "UID_like_count_round_16032026/UID_like_count_12_16032026.txt",
+            "Day/UID_ชอบซื้อวันแรก.txt",
+            "users_เชียงราย.txt",
+            "UID_like_count_round_16032026/UID_like_count_13_16032026.txt",
+            "UID_like_count_round_16032026/UID_like_count_11_16032026.txt"
+        ],
+        "weight": 1
+    },
+    {
+        "id": "06063801-bf25-4af5-9812-1975b8e5c155",
+        "date": "2026-03-05",
+        "includes": [
+            "special/special_5_2026_03_16.csv",
+            "UID_like_count_round_16032026/UID_like_count_14_16032026.txt"
+        ],
+        "excludes": [
+            "Buyfirst_bytime/Buyfirst_bytime_1200_1659.txt",
+            "Buyfirst_bytime/Buyfirst_bytime_1700_1959.txt",
+            "special/special_4_2026_03_16.csv",
+            "UID_like_count_round_16032026/UID_like_count_12_16032026.txt",
+            "Day/UID_ชอบซื้อวันแรก.txt",
+            "users_เชียงราย.txt",
+            "UID_like_count_round_16032026/UID_like_count_13_16032026.txt",
+            "UID_like_count_round_16032026/UID_like_count_11_16032026.txt"
+        ],
+        "weight": 1
+    },
+    {
+        "id": "73ed3d6f-1eca-43d6-b784-be12fce89ef5",
+        "date": "2026-03-05",
+        "includes": [
+            "Buyfirst_bytime/Buyfirst_bytime_2000_2359.txt"
+        ],
+        "excludes": [
+            "Buyfirst_bytime/Buyfirst_bytime_1200_1659.txt",
+            "Buyfirst_bytime/Buyfirst_bytime_1700_1959.txt",
+            "special/special_4_2026_03_16.csv",
+            "UID_like_count_round_16032026/UID_like_count_14_16032026.txt",
+            "UID_like_count_round_16032026/UID_like_count_12_16032026.txt",
+            "Day/UID_ชอบซื้อวันแรก.txt",
+            "users_เชียงราย.txt",
+            "special/special_5_2026_03_16.csv",
+            "UID_like_count_round_16032026/UID_like_count_13_16032026.txt",
+            "UID_like_count_round_16032026/UID_like_count_11_16032026.txt"
+        ],
+        "weight": 1
+    },
+    {
+        "id": "674dfcb2-1c47-4827-aac3-6b0a8fa67247",
+        "date": "2026-03-05",
+        "includes": [
+            "special/special_6_2026_03_16.csv",
+            "UID_like_count_round_16032026/UID_like_count_15_16032026.txt"
+        ],
+        "excludes": [
+            "Buyfirst_bytime/Buyfirst_bytime_1200_1659.txt",
+            "Buyfirst_bytime/Buyfirst_bytime_2000_2359.txt",
+            "Buyfirst_bytime/Buyfirst_bytime_1700_1959.txt",
+            "special/special_4_2026_03_16.csv",
+            "UID_like_count_round_16032026/UID_like_count_14_16032026.txt",
+            "UID_like_count_round_16032026/UID_like_count_12_16032026.txt",
+            "Day/UID_ชอบซื้อวันแรก.txt",
+            "users_เชียงราย.txt",
+            "special/special_5_2026_03_16.csv",
+            "UID_like_count_round_16032026/UID_like_count_13_16032026.txt",
+            "UID_like_count_round_16032026/UID_like_count_11_16032026.txt"
+        ],
+        "weight": 1
+    },
+    {
+        "id": "daaa1f28-5de3-4525-990a-8a7162e493e6",
+        "date": "2026-03-06",
+        "includes": [
+            "avg_item_order/avg_item_order_12_2026_03_16_(1).csv",
+            "avg_item_order/avg_item_order_10_2026_03_16_(1).csv",
+            "avg_item_order/avg_item_order_11_2026_03_16_(1).csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    },
+    {
+        "id": "51fec8b9-f427-4adc-b479-97aab0a68fa8",
+        "date": "2026-03-06",
+        "includes": [
+            "buymostly_bytime/buymostly_bytime_1200_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_1200_2026_03_16_(2).csv"
+        ],
+        "excludes": [
+            "avg_item_order/avg_item_order_12_2026_03_16_(1).csv",
+            "avg_item_order/avg_item_order_10_2026_03_16_(1).csv",
+            "avg_item_order/avg_item_order_11_2026_03_16_(1).csv"
+        ],
+        "weight": 1
+    },
+    {
+        "id": "07a7965f-41da-487b-93e1-79b3fafcb51d",
+        "date": "2026-03-06",
+        "includes": [
+            "UID_like_count_round_16032026/UID_like_count_8_16032026.txt",
+            "UID_like_count_round_16032026/UID_like_count_9_16032026.txt",
+            "buymostly_bytime/buymostly_bytime_1300_2026_03_16_(2).csv",
+            "buymostly_bytime/buymostly_bytime_1300_2026_03_16_(1).csv"
+        ],
+        "excludes": [
+            "avg_item_order/avg_item_order_11_2026_03_16_(1).csv",
+            "avg_item_order/avg_item_order_10_2026_03_16_(1).csv",
+            "avg_item_order/avg_item_order_12_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_1200_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_1200_2026_03_16_(2).csv"
+        ],
+        "weight": 1
+    },
+    {
+        "id": "21dfc910-2aa1-46a9-a83f-c11f24722a7d",
+        "date": "2026-03-06",
+        "includes": [
+            "special/special_4_2026_03_16.csv",
+            "UID_like_count_round_16032026/UID_like_count_10_16032026.txt"
+        ],
+        "excludes": [
+            "UID_like_count_round_16032026/UID_like_count_9_16032026.txt",
+            "buymostly_bytime/buymostly_bytime_1300_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_1300_2026_03_16_(2).csv",
+            "avg_item_order/avg_item_order_11_2026_03_16_(1).csv",
+            "avg_item_order/avg_item_order_10_2026_03_16_(1).csv",
+            "UID_like_count_round_16032026/UID_like_count_8_16032026.txt",
+            "avg_item_order/avg_item_order_12_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_1200_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_1200_2026_03_16_(2).csv"
+        ],
+        "weight": 1
+    },
+    {
+        "id": "134a4a41-c4ec-4d90-98e9-4913030957cf",
+        "date": "2026-03-06",
+        "includes": [
+            "UID_like_count_round_16032026/UID_like_count_5_16032026.txt"
+        ],
+        "excludes": [
+            "UID_like_count_round_16032026/UID_like_count_9_16032026.txt",
+            "buymostly_bytime/buymostly_bytime_1300_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_1300_2026_03_16_(2).csv",
+            "avg_item_order/avg_item_order_11_2026_03_16_(1).csv",
+            "special/special_4_2026_03_16.csv",
+            "UID_like_count_round_16032026/UID_like_count_10_16032026.txt",
+            "avg_item_order/avg_item_order_10_2026_03_16_(1).csv",
+            "UID_like_count_round_16032026/UID_like_count_8_16032026.txt",
+            "avg_item_order/avg_item_order_12_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_1200_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_1200_2026_03_16_(2).csv"
+        ],
+        "weight": 1
+    },
+    {
+        "id": "6a6dc332-b2a3-45d5-9ae5-2a9bff83eb4d",
+        "date": "2026-03-06",
+        "includes": [
+            "special/special_6_2026_03_16.csv",
+            "special/special_5_2026_03_16.csv"
+        ],
+        "excludes": [
+            "UID_like_count_round_16032026/UID_like_count_9_16032026.txt",
+            "buymostly_bytime/buymostly_bytime_1300_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_1300_2026_03_16_(2).csv",
+            "avg_item_order/avg_item_order_11_2026_03_16_(1).csv",
+            "special/special_4_2026_03_16.csv",
+            "UID_like_count_round_16032026/UID_like_count_10_16032026.txt",
+            "avg_item_order/avg_item_order_10_2026_03_16_(1).csv",
+            "UID_like_count_round_16032026/UID_like_count_5_16032026.txt",
+            "UID_like_count_round_16032026/UID_like_count_8_16032026.txt",
+            "avg_item_order/avg_item_order_12_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_1200_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_1200_2026_03_16_(2).csv"
+        ],
+        "weight": 1
+    },
+    {
+        "id": "c3ba2654-7f0b-4089-a52f-d41269b97853",
+        "date": "2026-03-06",
+        "includes": [
+            "buymostly_bytime/buymostly_bytime_1700_2026_03_16_(2).csv",
+            "buymostly_bytime/buymostly_bytime_1800_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_1700_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_1800_2026_03_16_(2).csv"
+        ],
+        "excludes": [
+            "special/special_6_2026_03_16.csv",
+            "UID_like_count_round_16032026/UID_like_count_9_16032026.txt",
+            "buymostly_bytime/buymostly_bytime_1300_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_1300_2026_03_16_(2).csv",
+            "avg_item_order/avg_item_order_11_2026_03_16_(1).csv",
+            "special/special_4_2026_03_16.csv",
+            "UID_like_count_round_16032026/UID_like_count_10_16032026.txt",
+            "avg_item_order/avg_item_order_10_2026_03_16_(1).csv",
+            "UID_like_count_round_16032026/UID_like_count_5_16032026.txt",
+            "UID_like_count_round_16032026/UID_like_count_8_16032026.txt",
+            "special/special_5_2026_03_16.csv",
+            "avg_item_order/avg_item_order_12_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_1200_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_1200_2026_03_16_(2).csv"
+        ],
+        "weight": 1
+    },
+    {
+        "id": "05262124-cf37-4fca-9848-5beaea00e27f",
+        "date": "2026-03-06",
+        "includes": [
+            "buymostly_bytime/buymostly_bytime_1900_2026_03_16_(2).csv",
+            "UID_like_count_round_16032026/UID_like_count_7_16032026.txt",
+            "UID_like_count_round_16032026/UID_like_count_6_16032026.txt",
+            "buymostly_bytime/buymostly_bytime_1900_2026_03_16_(1).csv"
+        ],
+        "excludes": [
+            "buymostly_bytime/buymostly_bytime_1700_2026_03_16_(1).csv",
+            "special/special_6_2026_03_16.csv",
+            "UID_like_count_round_16032026/UID_like_count_9_16032026.txt",
+            "buymostly_bytime/buymostly_bytime_1800_2026_03_16_(2).csv",
+            "buymostly_bytime/buymostly_bytime_1800_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_1300_2026_03_16_(2).csv",
+            "avg_item_order/avg_item_order_11_2026_03_16_(1).csv",
+            "special/special_4_2026_03_16.csv",
+            "UID_like_count_round_16032026/UID_like_count_10_16032026.txt",
+            "avg_item_order/avg_item_order_10_2026_03_16_(1).csv",
+            "UID_like_count_round_16032026/UID_like_count_5_16032026.txt",
+            "UID_like_count_round_16032026/UID_like_count_8_16032026.txt",
+            "buymostly_bytime/buymostly_bytime_1300_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_1700_2026_03_16_(2).csv",
+            "special/special_5_2026_03_16.csv",
+            "avg_item_order/avg_item_order_12_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_1200_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_1200_2026_03_16_(2).csv"
+        ],
+        "weight": 1
+    },
+    {
+        "id": "90176955-5dd8-4da9-8763-01bcb2549c80",
+        "date": "2026-03-06",
+        "includes": [
+            "buymostly_bytime/buymostly_bytime_2200_2026_03_16_(2).csv",
+            "buymostly_bytime/buymostly_bytime_2200_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_2000_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_2000_2026_03_16_(2).csv",
+            "buymostly_bytime/buymostly_bytime_2100_2026_03_16_(2).csv",
+            "buymostly_bytime/buymostly_bytime_2100_2026_03_16_(1).csv"
+        ],
+        "excludes": [
+            "special/special_6_2026_03_16.csv",
+            "UID_like_count_round_16032026/UID_like_count_9_16032026.txt",
+            "UID_like_count_round_16032026/UID_like_count_7_16032026.txt",
+            "UID_like_count_round_16032026/UID_like_count_6_16032026.txt",
+            "avg_item_order/avg_item_order_11_2026_03_16_(1).csv",
+            "special/special_4_2026_03_16.csv",
+            "UID_like_count_round_16032026/UID_like_count_10_16032026.txt",
+            "avg_item_order/avg_item_order_10_2026_03_16_(1).csv",
+            "UID_like_count_round_16032026/UID_like_count_5_16032026.txt",
+            "UID_like_count_round_16032026/UID_like_count_8_16032026.txt",
+            "special/special_5_2026_03_16.csv",
+            "avg_item_order/avg_item_order_12_2026_03_16_(1).csv"
+        ],
+        "weight": 1
+    },
+    {
+        "id": "0ae7e20c-36a1-4a13-a430-56a3d8babff9",
+        "date": "2026-03-06",
+        "includes": [
+            "special/special_1_2026_03_16.csv",
+            "special/special_2_2026_03_16.csv",
+            "special/special_3_2026_03_16.csv"
+        ],
+        "excludes": [
+            "buymostly_bytime/buymostly_bytime_1900_2026_03_16_(1).csv",
+            "special/special_4_2026_03_16.csv",
+            "UID_like_count_round_16032026/UID_like_count_9_16032026.txt",
+            "buymostly_bytime/buymostly_bytime_2200_2026_03_16_(1).csv",
+            "UID_like_count_round_16032026/UID_like_count_10_16032026.txt",
+            "buymostly_bytime/buymostly_bytime_1900_2026_03_16_(2).csv",
+            "buymostly_bytime/buymostly_bytime_1300_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_2100_2026_03_16_(2).csv",
+            "avg_item_order/avg_item_order_11_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_2200_2026_03_16_(2).csv",
+            "UID_like_count_round_16032026/UID_like_count_6_16032026.txt",
+            "avg_item_order/avg_item_order_12_2026_03_16_(1).csv",
+            "UID_like_count_round_16032026/UID_like_count_5_16032026.txt",
+            "buymostly_bytime/buymostly_bytime_1200_2026_03_16_(2).csv",
+            "buymostly_bytime/buymostly_bytime_2000_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_2100_2026_03_16_(1).csv",
+            "UID_like_count_round_16032026/UID_like_count_8_16032026.txt",
+            "buymostly_bytime/buymostly_bytime_1700_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_1800_2026_03_16_(2).csv",
+            "special/special_5_2026_03_16.csv",
+            "UID_like_count_round_16032026/UID_like_count_7_16032026.txt",
+            "buymostly_bytime/buymostly_bytime_1200_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_1800_2026_03_16_(1).csv",
+            "special/special_6_2026_03_16.csv",
+            "buymostly_bytime/buymostly_bytime_2000_2026_03_16_(2).csv",
+            "avg_item_order/avg_item_order_10_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_1700_2026_03_16_(2).csv",
+            "buymostly_bytime/buymostly_bytime_1300_2026_03_16_(2).csv"
+        ],
+        "weight": 1
+    },
+    {
+        "id": "b4b96887-baad-414b-a95b-3c68df98efcb",
+        "date": "2026-03-06",
+        "includes": [
+            "avg_item_order/avg_item_order_17_2026_03_16_(1).csv",
+            "avg_item_order/avg_item_order_16_2026_03_16_(1).csv"
+        ],
+        "excludes": [],
+        "weight": 1
+    }
+]
