@@ -600,53 +600,44 @@
         "weight": 1
     },
     {
-        "id": "0ae7e20c-36a1-4a13-a430-56a3d8babff9",
+        "id": "f1de327a-a8e8-4de4-a6a5-bd35896673e6",
         "date": "2026-03-06",
         "includes": [
-            "special/special_1_2026_03_16.csv",
+            "item_per_round/item_per_round_10_2026_03_16_(1).csv",
             "special/special_2_2026_03_16.csv",
-            "special/special_3_2026_03_16.csv"
+            "special/special_3_2026_03_16.csv",
+            "special/special_1_2026_03_16.csv"
         ],
         "excludes": [
-            "buymostly_bytime/buymostly_bytime_1900_2026_03_16_(1).csv",
-            "special/special_4_2026_03_16.csv",
+            "buymostly_bytime/buymostly_bytime_1800_2026_03_16_(1).csv",
             "UID_like_count_round_16032026/UID_like_count_9_16032026.txt",
+            "special/special_4_2026_03_16.csv",
+            "special/special_5_2026_03_16.csv",
+            "UID_like_count_round_16032026/UID_like_count_5_16032026.txt",
+            "buymostly_bytime/buymostly_bytime_1300_2026_03_16_(2).csv",
+            "buymostly_bytime/buymostly_bytime_2200_2026_03_16_(2).csv",
+            "UID_like_count_round_16032026/UID_like_count_7_16032026.txt",
+            "buymostly_bytime/buymostly_bytime_1700_2026_03_16_(1).csv",
             "buymostly_bytime/buymostly_bytime_2200_2026_03_16_(1).csv",
-            "UID_like_count_round_16032026/UID_like_count_10_16032026.txt",
-            "buymostly_bytime/buymostly_bytime_1900_2026_03_16_(2).csv",
+            "buymostly_bytime/buymostly_bytime_2000_2026_03_16_(2).csv",
             "buymostly_bytime/buymostly_bytime_1300_2026_03_16_(1).csv",
             "buymostly_bytime/buymostly_bytime_2100_2026_03_16_(2).csv",
-            "avg_item_order/avg_item_order_11_2026_03_16_(1).csv",
-            "buymostly_bytime/buymostly_bytime_2200_2026_03_16_(2).csv",
-            "UID_like_count_round_16032026/UID_like_count_6_16032026.txt",
-            "avg_item_order/avg_item_order_12_2026_03_16_(1).csv",
-            "UID_like_count_round_16032026/UID_like_count_5_16032026.txt",
-            "buymostly_bytime/buymostly_bytime_1200_2026_03_16_(2).csv",
-            "buymostly_bytime/buymostly_bytime_2000_2026_03_16_(1).csv",
             "buymostly_bytime/buymostly_bytime_2100_2026_03_16_(1).csv",
-            "UID_like_count_round_16032026/UID_like_count_8_16032026.txt",
-            "buymostly_bytime/buymostly_bytime_1700_2026_03_16_(1).csv",
             "buymostly_bytime/buymostly_bytime_1800_2026_03_16_(2).csv",
-            "special/special_5_2026_03_16.csv",
-            "UID_like_count_round_16032026/UID_like_count_7_16032026.txt",
-            "buymostly_bytime/buymostly_bytime_1200_2026_03_16_(1).csv",
-            "buymostly_bytime/buymostly_bytime_1800_2026_03_16_(1).csv",
-            "special/special_6_2026_03_16.csv",
-            "buymostly_bytime/buymostly_bytime_2000_2026_03_16_(2).csv",
-            "avg_item_order/avg_item_order_10_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_1900_2026_03_16_(1).csv",
+            "UID_like_count_round_16032026/UID_like_count_6_16032026.txt",
+            "buymostly_bytime/buymostly_bytime_1200_2026_03_16_(2).csv",
+            "buymostly_bytime/buymostly_bytime_1900_2026_03_16_(2).csv",
             "buymostly_bytime/buymostly_bytime_1700_2026_03_16_(2).csv",
-            "buymostly_bytime/buymostly_bytime_1300_2026_03_16_(2).csv"
+            "buymostly_bytime/buymostly_bytime_2000_2026_03_16_(1).csv",
+            "special/special_6_2026_03_16.csv",
+            "avg_item_order/avg_item_order_10_2026_03_16_(1).csv",
+            "UID_like_count_round_16032026/UID_like_count_8_16032026.txt",
+            "avg_item_order/avg_item_order_11_2026_03_16_(1).csv",
+            "buymostly_bytime/buymostly_bytime_1200_2026_03_16_(1).csv",
+            "UID_like_count_round_16032026/UID_like_count_10_16032026.txt",
+            "avg_item_order/avg_item_order_12_2026_03_16_(1).csv"
         ],
-        "weight": 1
-    },
-    {
-        "id": "b4b96887-baad-414b-a95b-3c68df98efcb",
-        "date": "2026-03-06",
-        "includes": [
-            "avg_item_order/avg_item_order_17_2026_03_16_(1).csv",
-            "avg_item_order/avg_item_order_16_2026_03_16_(1).csv"
-        ],
-        "excludes": [],
         "weight": 1
     }
 ]

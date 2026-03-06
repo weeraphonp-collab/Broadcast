@@ -125,13 +125,23 @@ def read_and_clean_uid(file_path):
         st.warning(f"ข้ามไฟล์ {os.path.basename(file_path)} เนื่องจาก: {e}")
         return pd.DataFrame(columns=['uid'])
 
+# 🎯 ฟังก์ชันนับจำนวน UID แบบเร็ว (พร้อมระบบจำค่า Cache ให้เว็บไม่ช้า)
+@st.cache_data(show_spinner=False)
+def get_uid_count(file_path):
+    try:
+        df = pd.read_csv(file_path, header=None, names=['uid'], dtype=str)
+        df['uid'] = df['uid'].astype(str).str.strip()
+        df = df[df['uid'].notna() & (df['uid'] != '') & (df['uid'] != 'nan')]
+        return len(df[['uid']].drop_duplicates())
+    except:
+        return 0
+
 # --- 🎯 จัดการตัวแปรความจำสำหรับกระบะพักและระบบแก้ไข ---
 if 'stage_inc' not in st.session_state: st.session_state['stage_inc'] = []
 if 'stage_exc' not in st.session_state: st.session_state['stage_exc'] = []
 if 'stage_selector' not in st.session_state: st.session_state['stage_selector'] = []
 if 'edit_id' not in st.session_state: st.session_state['edit_id'] = None
 if 'camp_date_input' not in st.session_state: st.session_state['camp_date_input'] = datetime.date.today()
-if 'is_executed' not in st.session_state: st.session_state['is_executed'] = False # 🎯 ตัวจำสถานะปุ่ม Execute
 
 def clear_staging():
     st.session_state['stage_inc'] = []
@@ -187,14 +197,12 @@ def submit_broadcast_callback():
             st.session_state['toast_msg'] = {'msg': "บันทึกประวัติ Broadcast เรียบร้อย"}
             
         save_db(campaign_history, CAMPAIGN_DB) 
-        st.session_state['is_executed'] = False # 🎯 เซฟใหม่ปุ๊บ ล้างหน้า Dashboard เก่าทิ้งก่อน
         clear_staging()
 
 def delete_campaign(camp_id):
     global campaign_history
     campaign_history = [c for c in campaign_history if c['id'] != camp_id]
     save_db(campaign_history, CAMPAIGN_DB)
-    st.session_state['is_executed'] = False # 🎯 ลบข้อมูลก็ต้องล้างหน้า Dashboard ทิ้งเหมือนกัน
     st.session_state['toast_msg'] = {'msg': "ลบ Broadcast เรียบร้อย"}
 
 # --- 2. ส่วนหัวโปรแกรม ---
@@ -261,7 +269,9 @@ if os.path.isdir(folder_path):
                             st.caption("ว่างเปล่า...")
                         for f in st.session_state['stage_inc']:
                             c_name, c_del = st.columns([8.5, 1.5])
-                            c_name.markdown(f"<span style='font-size: 13px;'>{f}</span>", unsafe_allow_html=True)
+                            # 🎯 เพิ่มตัวเลขจำนวน UID ต่อท้ายชื่อไฟล์
+                            f_count = get_uid_count(os.path.join(folder_path, f))
+                            c_name.markdown(f"<span style='font-size: 13px;'>{f} <span style='color: #888; font-size: 11px;'>({f_count:,} UIDs)</span></span>", unsafe_allow_html=True)
                             with c_del:
                                 st.markdown("<div class='small-icon-btn'>", unsafe_allow_html=True)
                                 if st.button("ลบ", key=f"del_inc_{f}"):
@@ -277,7 +287,9 @@ if os.path.isdir(folder_path):
                             st.caption("ว่างเปล่า...")
                         for f in st.session_state['stage_exc']:
                             c_name, c_del = st.columns([8.5, 1.5])
-                            c_name.markdown(f"<span style='font-size: 13px;'>{f}</span>", unsafe_allow_html=True)
+                            # 🎯 เพิ่มตัวเลขจำนวน UID ต่อท้ายชื่อไฟล์
+                            f_count = get_uid_count(os.path.join(folder_path, f))
+                            c_name.markdown(f"<span style='font-size: 13px;'>{f} <span style='color: #888; font-size: 11px;'>({f_count:,} UIDs)</span></span>", unsafe_allow_html=True)
                             with c_del:
                                 st.markdown("<div class='small-icon-btn'>", unsafe_allow_html=True)
                                 if st.button("ลบ", key=f"del_exc_{f}"):
@@ -294,13 +306,11 @@ if os.path.isdir(folder_path):
             st.subheader("Broadcast Processing")
             
             if campaign_history:
-                # 🎯 ตั้ง Default ให้เป็นวันที่ปัจจุบัน (today) เสมอ
                 today = datetime.date.today()
                 
                 date_range = st.date_input(
                     "เลือกช่วงวันที่ที่ต้องการคำนวณ:", 
-                    value=(today, today), 
-                    on_change=lambda: st.session_state.update({'is_executed': False}) # 🎯 ถ้าเปลี่ยนวัน ให้เคลียร์หน้า Dashboard ทิ้ง
+                    value=(today, today)
                 )
                 
                 if isinstance(date_range, tuple) and len(date_range) == 2:
@@ -348,23 +358,19 @@ if os.path.isdir(folder_path):
                 with col_clear_db:
                     if st.button("ล้างประวัติทั้งหมด"):
                         save_db([], CAMPAIGN_DB)
-                        st.session_state['is_executed'] = False # 🎯 ล้างด้วย
                         st.rerun()
                 
                 with col_process:
-                    # 🎯 ผูกฟังก์ชันจำสถานะตอนกดปุ่ม
-                    def run_execute():
-                        st.session_state['is_executed'] = True
-                    st.button(f"Execute Process ({len(filtered_basket)} Broadcast)", type="primary", use_container_width=True, on_click=run_execute)
+                    start_process = st.button(f"Execute Process ({len(filtered_basket)} Broadcast)", type="primary", use_container_width=True)
             else:
                 st.info("ยังไม่มีประวัติ Broadcast ที่บันทึกไว้")
                 filtered_basket = []
+                start_process = False
 
         # ==========================================================
         # 🎯 โซนที่ 3: ลอจิกการประมวลผล Dashboard
         # ==========================================================
-        # 🎯 เปลี่ยนจากการเช็คปุ่มกด เป็นการเช็คความจำในระบบ
-        if filtered_basket and st.session_state.get('is_executed'):
+        if filtered_basket and start_process:
             st.write("")
             with st.container(border=True):
                 all_data = []
